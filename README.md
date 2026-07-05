@@ -1,6 +1,6 @@
 # Bamblu
 
-Bamblu is a real-time developer career intelligence platform. Connect your GitHub, LeetCode, and Codeforces accounts — Bamblu tracks your coding activity, finds your skill gaps, benchmarks you against peers, and gives you a personalized roadmap tied to actual job market demand.
+Bamblu is a real-time developer career intelligence platform. Connect your GitHub, LeetCode, and Codeforces accounts, Bamblu tracks your coding activity, finds your skill gaps, benchmarks you against peers, and gives you a personalized roadmap tied to actual job market demand.
 
 Currently in active development.
 
