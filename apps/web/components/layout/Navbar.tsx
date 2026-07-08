@@ -4,7 +4,7 @@ export function Navbar() {
   return (
     <header
       id="navbar"
-      className="sticky top-0 z-30 flex items-center justify-between px-8 py-5 bg-[#0a0e1a] border-b border-white/5"
+      className="sticky top-0 z-30 flex items-center justify-between px-8 py-5 h-[78px] bg-[#0a0e1a] border-b border-white/5"
     >
       <Link href="/" className="text-xl font-bold tracking-wide text-white">
         BAMBLU
