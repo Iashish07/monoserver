@@ -1,4 +1,4 @@
-import Link from 'next/link';
+
 
 export function Navbar() {
   return (
@@ -53,13 +53,6 @@ export function Navbar() {
           className="rounded-lg bg-white px-6 py-2.5 text-sm font-semibold text-black hover:bg-gray-100 transition-colors"
         >
           Log In
-        </Link>
-
-        <Link
-          href="/signup"
-          className="rounded-lg bg-cyan-400 px-6 py-2.5 text-sm font-semibold text-black hover:bg-cyan-300 transition-colors"
-        >
-          Get Started Free
         </Link>
       </div>
     </header>
