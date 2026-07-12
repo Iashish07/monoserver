@@ -17,24 +17,28 @@ export function Navbar() {
         >
           FEATURES
         </Link>
+
         <Link
           href="#analytics"
           className="text-xs font-medium tracking-wider text-gray-400 hover:text-white transition-colors"
         >
           ANALYTICS
         </Link>
+
         <Link
           href="#integrations"
           className="text-xs font-medium tracking-wider text-gray-400 hover:text-white transition-colors"
         >
           INTEGRATIONS
         </Link>
+
         <Link
           href="#how-it-works"
           className="text-xs font-medium tracking-wider text-gray-400 hover:text-white transition-colors"
         >
           HOW IT WORKS
         </Link>
+
         <Link
           href="#about"
           className="text-xs font-medium tracking-wider text-gray-400 hover:text-white transition-colors"
@@ -43,9 +47,12 @@ export function Navbar() {
         </Link>
       </nav>
 
-
+      <div className="flex items-center gap-3">
+        <Link
+          href="/login"
+          className="rounded-lg bg-white px-6 py-2.5 text-sm font-semibold text-black hover:bg-gray-100 transition-colors"
         >
-          Get Started Free
+          Log In
         </Link>
       </div>
     </header>
