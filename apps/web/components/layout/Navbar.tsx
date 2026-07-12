@@ -1,4 +1,4 @@
-import Link from 'next/link';
+
 
 export function Navbar() {
   return (
@@ -43,16 +43,7 @@ export function Navbar() {
         </Link>
       </nav>
 
-      <div className="flex items-center gap-3">
-        <Link
-          href="/login"
-          className="rounded-lg bg-white px-6 py-2.5 text-sm font-semibold text-black hover:bg-gray-100 transition-colors"
-        >
-          LogIn
-        </Link>
-        <Link
-          href="/signup"
-          className="rounded-lg bg-cyan-400 px-6 py-2.5 text-sm font-semibold text-black hover:bg-cyan-300 transition-colors"
+
         >
           Get Started Free
         </Link>
